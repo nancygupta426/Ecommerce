@@ -4,6 +4,8 @@ import Home from '../pages/Home';
 import Login from '../pages/Login';
 import SignUp from '../pages/SignUp';
 import ForgotPassowrd from '../pages/ForgotPassword';
+import AdminPanel from '../pages/AdminPanel';
+
 
 
 const router = createBrowserRouter([{
@@ -43,9 +45,10 @@ const router = createBrowserRouter([{
         //     path : "search",
         //     element : <SearchProduct/>
         // },
-        // {
-        //     path : "admin-panel",
-        //     element : <AdminPanel/>,
+        {
+            path : "admin-panel",
+            element : <AdminPanel/>,
+        },
         //     children : [
         //         {
         //             path : "all-users",
